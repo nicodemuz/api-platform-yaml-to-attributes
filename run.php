@@ -9,4 +9,4 @@ $runner = new Runner(
     yamlSerializerDir: '/home/nico/Projects/lms-platform/symfony/config/serializer',
     doctrineEntityDir: '/home/nico/Projects/lms-platform/symfony/src/Entity',
 );
-$runner->convertSerializerConfigurations();
+$runner->convertSerializerConfigurations()->convertApiPlatformConfigurations();
