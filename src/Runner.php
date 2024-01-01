@@ -212,7 +212,7 @@ class Runner
         unset($field['filters']);
 
         if (isset($field['validation_groups'])) {
-            $operationArguments['validationContext'] = $field['validation_groups'];
+            $operationArguments['validationContext']['groups'] = $field['validation_groups'];
         }
         unset($field['validation_groups']);
 
