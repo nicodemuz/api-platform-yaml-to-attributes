@@ -37,4 +37,4 @@ The script does not support all API Platform V3 configuration parameters. If a c
 
 ## Authors
 
-* Nico Hiort af Ornäs
+* [Nico Hiort af Ornäs](https://github.com/nicodemuz)
