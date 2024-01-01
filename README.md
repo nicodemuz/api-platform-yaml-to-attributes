@@ -35,6 +35,8 @@ This script was hacked together in a few hours. Use at own risk. Commit your wor
 
 The script does not support all API Platform V3 configuration parameters. If a configuration parameter is unsupported, no changes will be executed. Please modify `Runner.php` file accordingly. Pull requests will be gladly accepted.
 
+The script uses Nette PHP Code Generator to rewrite your PHP files. It will likely introduce some unwanted changes. You may wish to modify the printer code in `Runner.php` to match your coding standard.
+
 ## Authors
 
 * [Nico Hiort af Ornäs](https://github.com/nicodemuz)
